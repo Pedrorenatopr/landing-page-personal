@@ -111,6 +111,25 @@ body {
 
 }
 
+.planos {
+    color: white;
+}
+
+.preco {
+    color: rgba(255, 196, 0, 0.972);
+    font-weight: bold;
+}
+
+.texto-quatro {
+    font-size: 16px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
 
 
 @media screen and  (max-device-width: 700px) {
