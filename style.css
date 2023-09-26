@@ -42,7 +42,8 @@ body {
     padding-top: 100px;
     display: flex;
     justify-content: center;
-    gap: 4em;
+    gap: 8em;
+    align-items: center;
 }
 
 .cartao-dois {
@@ -52,8 +53,18 @@ body {
     border-radius: 20px;
     font-size: 20px;
     width: 150px;
+    height: 150px;
     overflow: hidden;
     align-items: center;
+
+}
+
+.cartao-web {
+    background-color: #404244;;
+    border-radius: 20px;
+    width: 800px;
+    font-size: 20px;
+    overflow: hidden;
 }
 
 .item-cartao-dois {}
@@ -95,5 +106,17 @@ body {
 
     body {
         background-size: 100vh 100vh;
+    }
+
+    .cartao-web {
+        display: none;
+    }
+
+    .section-dois {
+        padding-top: 50px;
+        display: grid;
+        justify-content: center;
+        gap: 2em;
+        align-items: center;
     }
 }
