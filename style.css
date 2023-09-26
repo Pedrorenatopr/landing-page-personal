@@ -38,6 +38,25 @@ body {
     color: rgba(255, 196, 0, 0.972);
 }
 
+.section-dois {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.cartao-dois {
+    padding: 1em;
+    text-align: center;
+    background-color: #404244;;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 150px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.item-cartao-dois {}
 
 @media screen and  (max-device-width: 700px) {
 
