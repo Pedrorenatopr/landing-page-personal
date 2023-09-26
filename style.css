@@ -40,6 +40,41 @@ body {
 
 
 @media screen and  (max-device-width: 700px) {
-    
-    
+
+    .section-um {
+        display: grid;
+        justify-content: center;
+        padding-top: 20px;
+        gap: 1em;
+    }
+
+    .cartao {
+        background-color: #404244;;
+        border-radius: 20px;
+        width: 350px;
+        font-size: 16px;
+        overflow: hidden;
+        height: 335px;
+    }
+
+    .foto-um {
+        width: 400px;
+        height: 335px;
+    }
+
+    .texto {
+        padding: 1em;
+        line-height: 20px;
+    }
+
+    .titulo {
+        font-size: 18px;
+        padding: 0;
+        padding-left: 10px;
+        color: rgba(255, 196, 0, 0.972);
+    }
+
+    body {
+        background-size: 100vh 100vh;
+    }
 }
