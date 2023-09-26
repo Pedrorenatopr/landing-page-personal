@@ -90,6 +90,27 @@ body {
     color: aliceblue;
 }
 
+.section-quatro {
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.cartao-quatro {
+    padding: 1em;
+    text-align: center;
+    background-color: #404244;;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    align-items: center;
+
+}
+
 
 
 @media screen and  (max-device-width: 700px) {
