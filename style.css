@@ -17,6 +17,21 @@ body {
     background-color: #131516;;
     border-radius: 20px;
     width: 800px;
-    font-size: 23px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.texto {
+    padding: 1em;
+    line-height: 30px;
+}
+
+.titulo {
+    padding: 1em;
+    color: aqua;
+}
+
+.destaque {
+    color: aqua;
 }
 
