@@ -77,12 +77,18 @@ body {
     background-color: #404244;;
     border-radius: 20px;
     font-size: 20px;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     align-items: center;
 
 }
+
+.avaliacao {
+    color: aliceblue;
+}
+
+
 
 @media screen and  (max-device-width: 700px) {
 
@@ -96,7 +102,7 @@ body {
     .cartao {
         background-color: #404244;;
         border-radius: 20px;
-        width: 350px;
+        width: 300px;
         font-size: 16px;
         overflow: hidden;
         height: 335px;
@@ -119,6 +125,19 @@ body {
         color: rgba(255, 196, 0, 0.972);
     }
 
+    .cartao-dois {
+        padding: 1em;
+        text-align: center;
+        background-color: #404244;;
+        border-radius: 20px;
+        font-size: 20px;
+        width: 300px;
+        height: 150px;
+        overflow: hidden;
+        align-items: center;
+    
+    }
+
     body {
         background-size: 100%;
     }
@@ -133,5 +152,12 @@ body {
         justify-content: center;
         gap: 2em;
         align-items: center;
+    }
+
+    .section-tres {
+        padding-top: 50px;
+        display: grid;
+        justify-content: center;
+        gap: 2em;
     }
 }
