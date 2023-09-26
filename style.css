@@ -1,5 +1,5 @@
 body {
-    background-color: #2d3032;
+    background-color: rgba(255, 196, 0, 0.972);
     top: 0;
     left: 0;
     right: 0;
@@ -41,6 +41,7 @@ body {
     justify-content: center;
     gap: 8em;
     align-items: center;
+
 }
 
 .cartao-dois {
@@ -68,7 +69,8 @@ body {
     padding-top: 100px;
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 3em;
+
 }
 
 .cartao-tres {
