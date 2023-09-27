@@ -11,12 +11,16 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 200px;
+    background-image: url(/Ellipse-left.svg);
+    background-repeat: no-repeat;
 }
 
 .cartao {
     background-color: #404244;;
     width: 800px;
     font-size: 20px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .texto {
@@ -39,6 +43,9 @@ body {
     justify-content: center;
     gap: 8em;
     align-items: center;
+    background-image: url(/Ellipse-right.svg);
+    background-position: right;
+    background-repeat: no-repeat;
 
 }
 
@@ -49,6 +56,7 @@ body {
     font-size: 20px;
     width: 150px;
     height: 150px;
+    border-radius: 20px;
     overflow: hidden;
     align-items: center;
 
@@ -58,6 +66,7 @@ body {
     background-color: #404244;;
     width: 800px;
     font-size: 20px;
+    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -76,8 +85,11 @@ body {
     font-size: 20px;
     width: 300px;
     height: 300px;
+    border-radius: 20px;
     overflow: hidden;
     align-items: center;
+    background-image: url(/Ellipse-left.svg);
+    background-repeat: no-repeat;
 
 }
 
@@ -100,8 +112,12 @@ body {
     font-size: 20px;
     width: 300px;
     height: 300px;
+    border-radius: 20px;
     overflow: hidden;
     align-items: center;
+    background-image: url(/Ellipse-right.svg);
+    background-position: right;
+    background-repeat: no-repeat;
 
 }
 
