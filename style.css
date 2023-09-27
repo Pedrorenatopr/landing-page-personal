@@ -161,7 +161,9 @@ button {
         background-color: #202124;
         width: 330px;
         font-size: 18px;
-        overflow: hidden;
+        background-image: url(/Ellipse-right.svg);
+        background-position: right;
+        background-repeat: no-repeat;
         height: 335px;
         text-align: center;
     }
