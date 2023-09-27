@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 200px;
-    background-image: url(/elipse-letf.svg);
+    background-image: url(elipse-letf.svg);
     background-repeat: no-repeat;
 }
 
