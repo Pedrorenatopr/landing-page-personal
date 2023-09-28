@@ -5,6 +5,8 @@ body {
     right: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #bdc1c6;
+    background-image: url(Ellipse\ 2\ \(1\).svg);
+    background-position: center;
 }
 
 .section-principal {
@@ -12,7 +14,12 @@ body {
     padding-top: 20px;
     background-color: black;
     background-image: url(Ellipse\ 2\ \(1\).svg);
-    background-position: center;
+
+}
+
+.img-principal {
+    background-image: url(Ellipse\ 2\ \(1\).svg);
+    background-size: 100%;
 }
 
 .section-um {
@@ -52,7 +59,6 @@ body {
     justify-content: center;
     gap: 8em;
     align-items: center;
-
 }
 
 .cartao-dois {
@@ -198,7 +204,7 @@ button {
     }
 
     body {
-        background-size: 100%;
+        background-position: top;
     }
 
     .cartao-web {
@@ -216,6 +222,7 @@ button {
         justify-content: center;
         gap: 2em;
         align-items: center;
+        background-image: url(Ellipse\ 2\ \(1\).svg);
     }
 
     .section-tres {
@@ -235,5 +242,14 @@ button {
 
     .img-principal {
         width: 350px;
+    }
+
+    .section-principal {
+        text-align: center;
+        padding-top: 20px;
+        background-color: black;
+        background-image: url(Ellipse\ 2\ \(1\).svg);
+        background-position: center;
+    
     }
 }
