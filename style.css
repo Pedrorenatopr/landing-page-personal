@@ -7,6 +7,8 @@ body {
     right: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #bdc1c6;
+    background-image: url(Ellipse\ 2\ \(1\).svg);
+    background-size: 100%;
 
 
 }
@@ -60,8 +62,6 @@ body {
     justify-content: center;
     gap: 8em;
     align-items: center;
-
-
 }
 
 .cartao-dois {
@@ -225,6 +225,8 @@ button {
         justify-content: center;
         gap: 2em;
         align-items: center;
+        background-image: url(Ellipse\ 2\ \(1\).svg);
+        background-size: 100%;
     }
 
     .section-tres {
