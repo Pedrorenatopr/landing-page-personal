@@ -1,19 +1,26 @@
 body {
-    background-color: #202124;
+    background-color: black;
     top: 0;
     left: 0;
     right: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #bdc1c6;
-    background-image: url(peso.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+}
+
+.section-principal {
+    text-align: center;
+    padding-top: 20px;
+    background-color: black;
+    background-image: url(Ellipse\ 2\ \(1\).svg);
+    background-position: center;
 }
 
 .section-um {
     display: flex;
     justify-content: space-around;
     padding-top: 200px;
+    background-image: url(peso6.PNG);
+    background-repeat: no-repeat;
 }
 
 .cartao {
@@ -230,5 +237,9 @@ button {
         display: grid;
         justify-content: center;
         gap: 2em;
+    }
+
+    .img-principal {
+        width: 350px;
     }
 }
