@@ -1,20 +1,23 @@
 body {
-    background-color: black;
+    background-image: linear-gradient(100deg, black, #524a05);
+    background-repeat: no-repeat;
+    height: 100%;
     top: 0;
     left: 0;
     right: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #bdc1c6;
-    background-image: url(Ellipse\ 2\ \(1\).svg);
-    background-position: center;
+
+
+}
+
+.fundo {
+
 }
 
 .section-principal {
     text-align: center;
     padding-top: 20px;
-    background-color: black;
-    background-image: url(Ellipse\ 2\ \(1\).svg);
-
 }
 
 .img-principal {
@@ -26,8 +29,6 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 200px;
-    background-image: url(peso6.PNG);
-    background-repeat: no-repeat;
 }
 
 .cartao {
@@ -59,6 +60,8 @@ body {
     justify-content: center;
     gap: 8em;
     align-items: center;
+
+
 }
 
 .cartao-dois {
@@ -87,6 +90,9 @@ body {
     display: flex;
     justify-content: center;
     gap: 3em;
+    background-image: url(icons8-academia-100.png);
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -203,9 +209,6 @@ button {
     
     }
 
-    body {
-        background-position: top;
-    }
 
     .cartao-web {
         display: grid;
@@ -222,7 +225,6 @@ button {
         justify-content: center;
         gap: 2em;
         align-items: center;
-        background-image: url(Ellipse\ 2\ \(1\).svg);
     }
 
     .section-tres {
@@ -247,9 +249,5 @@ button {
     .section-principal {
         text-align: center;
         padding-top: 20px;
-        background-color: black;
-        background-image: url(Ellipse\ 2\ \(1\).svg);
-        background-position: center;
-    
     }
 }
