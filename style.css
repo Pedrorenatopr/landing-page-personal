@@ -90,10 +90,10 @@ body {
     display: flex;
     justify-content: center;
     gap: 3em;
-    background-image: url(icons8-academia-100.png);
-    background-repeat: no-repeat;
-    background-position: center;
+}
 
+.foto-card {
+    border-radius: 100%;
 }
 
 .cartao-tres {
