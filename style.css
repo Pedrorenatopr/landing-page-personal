@@ -52,16 +52,13 @@ body {
     justify-content: center;
     gap: 8em;
     align-items: center;
-    background-image: url(elipse-r.svg);
-    background-position: right;
-    background-repeat: no-repeat;
 
 }
 
 .cartao-dois {
     padding: 1em;
     text-align: center;
-    background-color: #404244;;
+    background-color: #232324;
     font-size: 20px;
     width: 150px;
     height: 150px;
@@ -90,15 +87,14 @@ body {
 .cartao-tres {
     padding: 1em;
     text-align: center;
-    background-color: #404244;;
+    background-color: #232324;
     font-size: 20px;
     width: 300px;
     height: 300px;
     border-radius: 20px;
     overflow: hidden;
     align-items: center;
-    background-image: url(elipse-letf.svg);
-    background-repeat: no-repeat;
+
 
 }
 
@@ -117,16 +113,14 @@ body {
 .cartao-quatro {
     padding: 1em;
     text-align: center;
-    background-color: #404244;;
+    background-color: #232324;
     font-size: 20px;
     width: 300px;
     height: 300px;
     border-radius: 20px;
     overflow: hidden;
     align-items: center;
-    background-image: url(elipse-r.svg);
-    background-position: right;
-    background-repeat: no-repeat;
+
 
 }
 
@@ -194,7 +188,7 @@ button {
     .cartao-dois {
         padding: 1em;
         text-align: center;
-        background-color: #404244;;
+        background-color: #232324;
         font-size: 20px;
         width: 300px;
         height: 150px;
