@@ -179,6 +179,12 @@ button {
     color: white;
 }
 
+.copy {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+}
+
 
 @media screen and  (max-device-width: 700px) {
 
