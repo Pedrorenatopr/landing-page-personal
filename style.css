@@ -161,7 +161,7 @@ button {
     align-items: center;
     justify-content: center;
     padding-top: 100px;
-    padding: 1em;
+    gap: 1em;
 }
 
 .lista-pagamento {
@@ -268,5 +268,25 @@ button {
     .section-principal {
         text-align: center;
         padding-top: 20px;
+    }
+
+    .pagamento-seguro {
+        display: none;
+    }
+
+    .footer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+        gap: 1em;
+    }
+
+    .lista-pagamento {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        gap: 1em;
+        justify-content: center;
     }
 }
