@@ -17,6 +17,10 @@ body {
 
 }
 
+.legendas {
+    text-align: center;
+}
+
 .seta-centro {
     display: flex;
     justify-content: center;
