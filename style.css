@@ -17,6 +17,12 @@ body {
 
 }
 
+.seta-centro {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
 .section-principal {
     text-align: center;
     padding-top: 20px;
@@ -303,6 +309,21 @@ button {
         gap: 2em;
     }
 
+    .perfil-dois {
+        display: none;
+    }
+
+    .section-seis {
+        padding: 0;
+        padding-top: 50px;
+    }
+
+
+
+    .itens-seis {
+        padding: 0;
+    }
+
     .section-quatro {
         padding-top: 50px;
         text-align: center;
@@ -338,5 +359,9 @@ button {
         grid-template-columns: 25% 25% 25%;
         gap: 1em;
         justify-content: center;
+    }
+
+    .seta-centro {
+        display: none;
     }
 }
