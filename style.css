@@ -114,6 +114,41 @@ body {
     color: aliceblue;
 }
 
+.section-seis {
+    padding: 100px;
+}
+
+.texto-seis {
+    font-size: 20px;
+}
+
+.itens-secundario {
+    align-items: center;
+    display: flex;
+
+}
+
+.seta {
+    padding: 5px;
+}
+
+.cartao-seis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itens-seis {
+    padding: 100px;
+}
+
+.perfil-dois {
+    background-image: url(Ellipse\ 2\ \(1\).svg);
+    background-size: 100%;
+
+}
+
+
 .section-quatro {
     padding-top: 100px;
     text-align: center;
