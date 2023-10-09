@@ -176,17 +176,20 @@ body {
     border-radius: 20px;
     overflow: hidden;
     align-items: center;
+    text-align: left;
 
 
 }
 
 .planos {
     color: white;
+    text-align: center;
 }
 
 .preco {
     color: rgba(255, 196, 0, 0.972);
     font-weight: bold;
+    text-align: center;
 }
 
 .teste {
@@ -196,11 +199,26 @@ body {
 }
 
 .selecionado {
-    padding: 5px;
 }
 
 .texto-quatro {
-    font-size: 16px;
+    font-size: 13px;
+    padding-left: 80px;
+    line-height: 1em;
+}
+
+.comprar {
+
+}
+
+.teste-compra {
+    text-align: center;
+
+}
+
+.verificado {
+    position: absolute;
+    padding-left: 50px;
 }
 
 button {
@@ -330,7 +348,6 @@ button {
 
     .section-quatro {
         padding-top: 50px;
-        text-align: center;
         display: grid;
         justify-content: center;
         gap: 2em;
