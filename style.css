@@ -112,7 +112,7 @@ body {
     background-color: #232324;
     font-size: 20px;
     width: 300px;
-    height: 310px;
+    height: 320px;
     border-radius: 20px;
     overflow: hidden;
     align-items: center;
@@ -172,7 +172,7 @@ body {
     background-color: #232324;
     font-size: 20px;
     width: 300px;
-    height: 300px;
+    height: 350px;
     border-radius: 20px;
     overflow: hidden;
     align-items: center;
@@ -190,6 +190,7 @@ body {
     color: rgba(255, 196, 0, 0.972);
     font-weight: bold;
     text-align: center;
+    padding: 10px;
 }
 
 .teste {
@@ -384,5 +385,10 @@ button {
 
     .seta-centro {
         display: none;
+    }
+
+    .legendas {
+        text-align: center;
+        padding-top: 50px;
     }
 }
